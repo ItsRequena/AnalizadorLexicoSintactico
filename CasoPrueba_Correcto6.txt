@@ -1,0 +1,10 @@
+PROGRAM program;
+VAR
+	n,n1,n2,n3: integer;
+BEGIN
+	n:=0;
+	WHILE (n<10) DO
+		BEGIN
+			n := n + 1;
+		END
+END.

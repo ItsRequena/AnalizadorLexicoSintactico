@@ -1,0 +1,19 @@
+PROGRAM program;
+CONST
+	pi=3.14;
+	palabra='hola';
+	numero=7;
+VAR
+	n: integer;
+	r,s,t: real;
+PROCEDURE Suma(s:integer; n:integer; m:integer);
+	BEGIN
+		s:=n+m;
+	END;
+FUNCTION SumaR(s:integer; n:integer; m:integer): integer;
+	BEGIN
+		s:=n+m;
+	END;
+BEGIN
+	n:=1;
+END.

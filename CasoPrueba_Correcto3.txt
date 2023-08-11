@@ -1,0 +1,13 @@
+PROGRAM program;
+VAR
+	n,n1,n2,n3: integer;
+FUNCTION Suma(s:integer; n:integer; m:integer): integer;
+	BEGIN
+		s:=n+m;
+	END;
+BEGIN
+	n := Suma(0,1,1);
+	n1 := n * 2;
+	n2 := 8 DIV n1;
+	n3 := 8 MOD n1;
+END.

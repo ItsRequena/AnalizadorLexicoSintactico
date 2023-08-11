@@ -1,0 +1,10 @@
+PROGRAM program;
+VAR
+	n,n1,n2,n3: integer;
+BEGIN
+	REPEAT
+		BEGIN
+			n:=n + 1;
+		END
+	UNTIL (n>10);
+END.
