@@ -1,0 +1,14 @@
+PROGRAM program;
+VAR
+	n,n1,n2,n3: integer;
+BEGIN
+	n:=0;
+	IF(n > 1) THEN
+		BEGIN
+			n:=1;
+		END
+	FOR (i:=0 TO 10) DO
+		BEGIN
+			n:= 1 + 1;
+		END
+END.

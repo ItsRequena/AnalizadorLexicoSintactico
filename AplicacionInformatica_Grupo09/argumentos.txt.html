@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>argumentos.txt</title>
+<style>
+	.ident {color: #39A6A3; font-weight: bold} 
+	.palres {color: #231E23; font-weight: bold }
+	.cte {color: #BF1363; font-weight: bold} </style>
+</head>
+<body>
+<h1> Programa: argumentos.txt</h1>
+<H2>FUNCIONES Y PROCEDIMIENTOS:</H2>
+<UL>
+	<LI>
+		<A HREF="#0"></A>
+<SPAN class="ident">_get_input_</SPAN>;	</LI>
+	<LI>
+		<A HREF="#1"></A>
+real <SPAN class="ident">Celsius2Fahrenheit</SPAN>(<SPAN class="ident">Celsius_temp</SPAN>:real;<SPAN class="ident">dummy_value</SPAN>:integer);	</LI>
+	<LI>
+		<A HREF="#2"></A>
+<SPAN class="ident">Ending</SPAN>(<SPAN class="ident">dummy_value2</SPAN>:real;<SPAN class="ident">dummy_value3</SPAN>:integer);	</LI>
+</UL>
+
+<HR/>
+<A NAME="0"></A>
+<div><SPAN class="palres">PROCEDURE </SPAN><SPAN class="ident">_get_input_</SPAN>; </div><div><SPAN class="palres">BEGIN</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">Write</SPAN>(<SPAN class="cte">'Enter Degrees C: '</SPAN>);</div><div><SPAN class="ident">Read</SPAN>(<SPAN class="ident">Celsius_temp</SPAN>);</div></DIV><div><SPAN class="palres">END</SPAN>; </div><div> <A HREF="#">INICIO PAGINA</A>
+<A HREF="#0">Subprograma0</A></div><HR/>
+<A NAME="1"></A>
+<div><SPAN class="palres">FUNCTION </SPAN><SPAN class="ident">Celsius2Fahrenheit</SPAN>(<SPAN class="ident">Celsius_temp</SPAN>:real;<SPAN class="ident">dummy_value</SPAN>:integer):real; </div><div><SPAN class="palres">VAR</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">temperature</SPAN>:real; </div></DIV><div><SPAN class="palres">BEGIN</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">temperature</SPAN>:=(<SPAN class="ident">ratio</SPAN> * <SPAN class="ident">Celsius_temp</SPAN>) + <SPAN class="cte">32.0</SPAN>;</div><div><SPAN class="ident">Celsius2Fahrenheit</SPAN>:=<SPAN class="ident">temperature</SPAN>;</div></DIV><div><SPAN class="palres">END</SPAN>; </div><div> <A HREF="#">INICIO PAGINA</A>
+<A HREF="#1">Subprograma1</A></div><HR/>
+<A NAME="2"></A>
+<div><SPAN class="palres">PROCEDURE </SPAN><SPAN class="ident">Ending</SPAN>(<SPAN class="ident">dummy_value2</SPAN>:real;<SPAN class="ident">dummy_value3</SPAN>:integer); </div><div><SPAN class="palres">BEGIN</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">WriteLn</SPAN>;</div><div><SPAN class="ident">WriteLn</SPAN>(<SPAN class="cte">'Exiting...'</SPAN>);</div><div><SPAN class="ident">WriteLn</SPAN>;</div></DIV><div><SPAN class="palres">END</SPAN>; </div><div> <A HREF="#">INICIO PAGINA</A>
+<A HREF="#2">Subprograma2</A></div><HR/>
+<A NAME="MAIN"></A>
+<H2> PROGRAMA PRINCIPAL </H2>
+<div><SPAN class="palres">CONST</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">ratio</SPAN>=<SPAN class="cte">1.8</SPAN>; </div><div><SPAN class="ident">r1</SPAN>=<SPAN class="cte">+123.456</SPAN>; </div><div><SPAN class="ident">r2</SPAN>=<SPAN class="cte">-00.69</SPAN>; </div><div><SPAN class="ident">r3</SPAN>=<SPAN class="cte">45.07000</SPAN>; </div></DIV><div><SPAN class="palres">VAR</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">Celsius_temp</SPAN>,<SPAN class="ident">Fahrenheit_temp</SPAN>:real; </div></DIV><div><SPAN class="palres">BEGIN</SPAN></div><DIV style="text-indent:1.25cm"><div><SPAN class="ident">int1</SPAN>:=<SPAN class="cte">+123</SPAN>;</div><div><SPAN class="ident">int2</SPAN>:=<SPAN class="cte">-690</SPAN>;</div><div><SPAN class="ident">int3</SPAN>:=<SPAN class="cte">405</SPAN>;</div><div><SPAN class="ident">int4</SPAN>:=<SPAN class="cte">000078</SPAN>;</div><div><SPAN class="ident">int5</SPAN>:=<SPAN class="cte">-005</SPAN>;</div><div><SPAN class="ident">int6</SPAN>:=<SPAN class="cte">+0953</SPAN>;</div><div><SPAN class="ident">_get_input_</SPAN>;</div><div><SPAN class="ident">Fahrenheit_temp</SPAN>:=<SPAN class="ident">Celsius2Fahrenheit</SPAN>(<SPAN class="ident">Celsius_temp</SPAN>);</div><div><SPAN class="ident">Write</SPAN>(<SPAN class="cte">'Fahrenheit  is '</SPAN>);</div><div><SPAN class="ident">e1</SPAN>:=<SPAN class="cte">123E456</SPAN>;</div><div><SPAN class="ident">e2</SPAN>:=<SPAN class="cte">-64E-77</SPAN>;</div><div><SPAN class="ident">e3</SPAN>:=<SPAN class="cte">+045e16</SPAN>;</div><div><SPAN class="ident">e4</SPAN>:=<SPAN class="cte">003E+35</SPAN>;</div><div><SPAN class="ident">m1</SPAN>:=<SPAN class="cte">1.23E456</SPAN>;</div><div><SPAN class="ident">m2</SPAN>:=<SPAN class="cte">-000.64E-77</SPAN>;</div><div><SPAN class="ident">m3</SPAN>:=<SPAN class="cte">+045.0e16</SPAN>;</div><div><SPAN class="ident">m4</SPAN>:=<SPAN class="cte">0.03E+35</SPAN>;</div><div><SPAN class="ident">Write</SPAN>(<SPAN class="ident">ROUND</SPAN>(<SPAN class="ident">Fahrenheit_temp</SPAN>));</div><div><SPAN class="ident">Ending</SPAN>;</div></DIV><div><SPAN class="palres">END</SPAN>. </div>
+<br/><A HREF="#MAIN">PROGRAMA PRINCIPAL</A>
+<A HREF="#">INICIO PAGINA</A>
+</body>
+</html>

@@ -1,0 +1,6 @@
+PROGRAM program
+VAR
+	n: integer;
+BEGIN
+
+END
